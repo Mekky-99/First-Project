@@ -431,7 +431,8 @@ ul::before {
   }
 }
 @media (max-width: 549px) {
-  .about .about-content .image {
+  .about .about-content .image::before,
+  .about .about-content .image::after {
     display: none;
   }
 }
